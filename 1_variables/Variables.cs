@@ -27,5 +27,7 @@ Console.WriteLine($"\nHola {miNombre} tienes {edad}. :)");
 
 
 Console.WriteLine($"Nos vemos!!!");
+//Esto es para mostrar la fecha, por si se la necesita. Toma el día y su número, el mes y su número y el año.
 Console.WriteLine($"\n{DateTime.Now.ToString("dddd dd - MMMM MM - yyyy")}");
-Console.ReadKey();
+//Esto es más que nada que "lea" una key, que creo que sería un dato de tipo char. Después de escribir un caracter se finaliza el programa.
+Console.ReadKey(); // permitiendo ver los resultados de lo que se hizo anteriormente, caso contrario se cierra sola sin poder ver lo anterior.
