@@ -10,7 +10,7 @@
 string miNombre; //string - Cadenas de caracteres.
 // Declaramos 1 variable de tipo int.
 int edad; //int - Números entero.
-// Declaramos e instanciamos un valor de tipo string
+// Declaramos e instanciamos un valor de tipo string.
 string serVivo = "Humano";
 
 //Ingreso de datos:
