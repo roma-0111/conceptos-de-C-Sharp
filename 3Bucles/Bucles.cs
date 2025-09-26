@@ -3,18 +3,20 @@
 //Se mostrará el uso básico de los bucles, sea el: for, while y el do while.
 //No se explica el funcionamiento por dentro.
 
-//Romano Brian - Desarrollador C#
+//Romano Brian - Programador C#
 
-//Declaramos un contador
+Console.WriteLine("\t\tBucles");
+//Declaramos un contador inicializado.
 int contador = 0;
 
+//Usamos un for:
 for (int i = 0; i < 5; i++)
 {
     Console.WriteLine("Hola, esta es la vuelta con for: " + i);
 }
-//Console.WriteLine("Estado final del i: " + i);
-//nota: no se puede acceder desde afuera, porque esa variable "i" es local de for, lo que significa que no existe salvo en el for
+//Console.WriteLine("Estado final del i: " + i); //fuerad del for no existe "i".
 
+//Usamos un while:
 while (contador <= 10)
 {
 
@@ -23,15 +25,16 @@ while (contador <= 10)
 }
 Console.WriteLine("Estado final del contador con while: " + contador);
 
+//Usamos un do while:
 do
 {
-    Console.WriteLine("Estamos en la vuelta con do while: " + contador);
+    Console.WriteLine("Estado de contador " + contador + ", dentro del do while.");
     contador++;
 } while (contador < 20);
 
-Console.WriteLine("Estado final de contador con do while: " + contador);
+Console.WriteLine("Estado fuera del do while: " + contador);
 
-//Ejercicio: Hacer que un for se ejecute hasta 10, y indicar si el contador es par o no.
+//Ejercicio 1: Hacer que un for se ejecute hasta 10, y indicar si el contador es par o no.
 for (int i = 0; i <= 10; i++)
 {
     if (i % 2 == 0)

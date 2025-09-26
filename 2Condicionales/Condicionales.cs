@@ -3,22 +3,26 @@
 //Se mostrará el uso básico de los condicionales, sea el: if, else, else if.
 //No se explica el funcionamiento por dentro, hay teoría.
 
-//Romano Brian - Desarrollador C#
+//Romano Brian - Programador C#
 //---
 
+
+Console.WriteLine("\t\tCondicionales");
 //Declaramos algunas variables con diferentes tipos de datos.
-string miNombre = "Brian", nombreIngresante; //Cadenas de caracteres
-int miEdad = 21, edadIngresante; //Número entero
+string miNombre = "Brian", nombreIngresante;
+int miEdad = 21, edadIngresante;
+
 
 //Ingreso de datos:
-
+//El nombre.
 Console.Write("Ingrese su nombre: ");
 nombreIngresante = Console.ReadLine();
 
+//La edad.
 Console.Write("Ingrese su edad: ");
 edadIngresante = Convert.ToInt32(Console.ReadLine());
 
-//Ponemos condiciones, al ser true uno de ellos mostrará información distinta
+//Ponemos condiciones, al ser true o false, uno de ellos mostrará información distinta.
 if (miEdad > edadIngresante)
 {
     Console.WriteLine($"La edad de {miNombre} es mayor a la de {nombreIngresante}.");
@@ -31,7 +35,11 @@ else
 {
     Console.WriteLine("La edades son iguales.");
 }
+
 Console.WriteLine($"Adios!\n\n{DateTime.Now}");
+
+
+//---
 
 
 //Ejercicio 1: Crear un programa que deba ingresar nombre, edad y sexo.

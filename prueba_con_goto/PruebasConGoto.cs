@@ -2,16 +2,16 @@
 
 namespace prueba_con_goto;
 
-class Program
+class pruebasConGoto
 {
     static void Main(string[] args)
     {
-        //Ejercicio: Programa que muestra un menu de opciones, dependiendo de cada opciones realizará una operación básica.
+        //Ejercicio 1: Programa que muestra un menu de opciones, dependiendo de cada opciones realizará una operación básica.
         //Condiciones: Usar goto
 
-        //Variables:
         Inicio:
     
+        //Variables:
         string opcion;
         decimal A, B;
 
